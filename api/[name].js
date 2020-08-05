@@ -7,6 +7,7 @@ module.exports = async (req, res) => {
   const { action } = req.body
   await SLACK_CLIENT.chat.postMessage({
     channel: name,
+    mrkdwn: true,
     text: `
     # ${name} ${action}
     `
