@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "@slack/web-api": "5.11.0"
+  }
 }
