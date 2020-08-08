@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v1.0.0...v2.0.0) (2020-08-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **pr:** webhooks need to be updated to new endpoint
+
+* **pr:** move to new /pr/[name] endpoint ([f07184e](https://github.com/AndrewUsher/slack-pr-announcer/commit/f07184e01853a1ff76bdd7e0f8b1e57b390eac39))
+
 ## 1.0.0 (2020-08-08)
 
 
