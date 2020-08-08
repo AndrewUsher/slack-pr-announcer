@@ -1,8 +1,8 @@
-const { WebClient } = require('@slack/web-api')
+import { WebClient } from '@slack/web-api'
 
 const SLACK_CLIENT = new WebClient(process.env.SLACK_API_KEY)
 
-module.exports = async (req, res) => {
+export default async (req, res) => {
   const { name } = req.query
   const { action, pull_request: { diff_url: diffUrl, html_url: siteURL, user: { login } } } = req.body
 
