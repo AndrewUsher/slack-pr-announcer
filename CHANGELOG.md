@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v2.0.0...v2.1.0) (2020-08-08)
+
+
+### Features
+
+* **pr:** add diff url to message ([83116d3](https://github.com/AndrewUsher/slack-pr-announcer/commit/83116d3e701de759e17774bdc5fa39f8468567d4))
+* **pr:** add pull request description to message ([09dcc38](https://github.com/AndrewUsher/slack-pr-announcer/commit/09dcc38a0d781e72f53c5c42d0b2db4b9cfefd75))
+* **pr:** add username to message ([ceecd89](https://github.com/AndrewUsher/slack-pr-announcer/commit/ceecd89b4a9b8aa0c0bed781dfcc6e78d0b6119f))
+* **pr:** strip markdown from PR body ([08f6989](https://github.com/AndrewUsher/slack-pr-announcer/commit/08f6989ffe7b59ea9c91abee386cb189c1ba99fc))
+
 ## [2.0.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v1.0.0...v2.0.0) (2020-08-08)
 
 
