@@ -9,6 +9,7 @@ export default async (req, res) => {
 
   if (!shouldPostMessage) {
     res.status(200).send('Not Applicable')
+    return
   }
 
   await SLACK_CLIENT.chat.postMessage({
