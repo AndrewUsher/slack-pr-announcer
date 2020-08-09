@@ -17,7 +17,5 @@ export default async (req, res) => {
     `
   })
 
-  res.json({
-    test: 'test'
-  })
+  res.status(200).send('Okay')
 }
