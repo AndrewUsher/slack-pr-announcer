@@ -5,7 +5,7 @@ const SLACK_CLIENT = new WebClient(process.env.SLACK_API_KEY)
 
 export default async (req, res) => {
   const { name } = req.query
-  const { action, pull_request: { diff_url: diffUrl, html_url: siteURL, patch_url: patchURL, title, user: { login } }, head: { ref }, repository: { clone_url: cloneURL } } = req.body
+  const { action, pull_request: { diff_url: diffUrl, html_url: siteURL, patch_url: patchURL, title, user: { login }, head: { ref } }, repository: { clone_url: cloneURL } } = req.body
 
   if (!shouldPostMessage(action)) {
     res.status(200).send('Not Applicable')
