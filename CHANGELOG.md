@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v2.1.0...v2.2.0) (2020-08-10)
+
+
+### Features
+
+* **pr:** add patch url to message ([c0102ae](https://github.com/AndrewUsher/slack-pr-announcer/commit/c0102aec001449f8389ed2da3ebe95c1efdaba38))
+* **pr:** add title to message ([09005fe](https://github.com/AndrewUsher/slack-pr-announcer/commit/09005fe41990a199b2636d8d5f52143d6f3b6c8c))
+* **pr:** only post open and closed PRs ([881eacc](https://github.com/AndrewUsher/slack-pr-announcer/commit/881eacc7906ddb931e370dd869e35d7054dee793))
+
+
+### Bug Fixes
+
+* **pr:** add early return to skipped PRs ([8e89ee7](https://github.com/AndrewUsher/slack-pr-announcer/commit/8e89ee7870d5ae0acb9afd026ed0dca2f11d79d1))
+* **pr:** fix util call ([bd2a6bb](https://github.com/AndrewUsher/slack-pr-announcer/commit/bd2a6bb306afdacbdbe6856794bb54971cc6a98e))
+
 ## [2.1.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v2.0.0...v2.1.0) (2020-08-08)
 
 
