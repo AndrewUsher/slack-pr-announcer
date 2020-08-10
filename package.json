@@ -15,7 +15,7 @@
     "@slack/web-api": "5.11.0"
   },
   "devDependencies": {
-    "@drewster/eslint-config": "1.0.2",
+    "@drewster/eslint-config": "3.0.0",
     "eslint": "7.6.0",
     "standard-version": "8.0.2"
   }
