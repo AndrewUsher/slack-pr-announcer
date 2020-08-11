@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint utils/ api/",
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch"
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@drewster/eslint-config": "3.0.0",
     "eslint": "7.6.0",
+    "husky": "4.2.5",
     "standard-version": "8.0.2"
   }
 }
