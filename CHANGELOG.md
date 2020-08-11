@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v2.2.0...v2.3.0) (2020-08-11)
+
+
+### Features
+
+* **pr:** add checkout instructions to message ([48c69c7](https://github.com/AndrewUsher/slack-pr-announcer/commit/48c69c7b8804112c0f5d2d6967addeb441368143))
+
+
+### Bug Fixes
+
+* **pr:** update indentation for message ([aaf2423](https://github.com/AndrewUsher/slack-pr-announcer/commit/aaf242308bd31d02dce9582d762da31fe9aa113f))
+* **pr:** use correct ref for message ([d2e7901](https://github.com/AndrewUsher/slack-pr-announcer/commit/d2e790130c10e4348f108f5b70b49812fe7d4342))
+
 ## [2.2.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v2.1.0...v2.2.0) (2020-08-10)
 
 
