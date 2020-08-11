@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v2.3.0...v2.4.0) (2020-08-11)
+
+
+### Features
+
+* **ci:**  add github lint action ([693a392](https://github.com/AndrewUsher/slack-pr-announcer/commit/693a392a4894906e293b90b51b652208ab5d1794))
+* **ci:** add husky and lint command ([c3095d5](https://github.com/AndrewUsher/slack-pr-announcer/commit/c3095d5521741a15e39b183f66f201a24c5e7a2c))
+
 ## [2.3.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v2.2.0...v2.3.0) (2020-08-11)
 
 
