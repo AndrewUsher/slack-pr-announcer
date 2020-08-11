@@ -15,23 +15,24 @@ export default async (req, res) => {
   await SLACK_CLIENT.chat.postMessage({
     channel: name,
     mrkdwn: true,
-    text: `
-    PR ${action} by ${login} for ${name}
+    text:
+`
+PR ${action} by ${login} for ${name}
 
-    ${title}
+${title}
 
-    To checkout locally:
+To checkout locally:
 
-    \`\`\`
-    git clone ${cloneURL}
-    cd ${name}
-    git checkout -b "${ref}" "origin/${ref}"
-    \`\`\`
+\`\`\`
+git clone ${cloneURL}
+cd ${name}
+git checkout -b "${ref}" "origin/${ref}"
+\`\`\`
 
-    Diff URL: ${diffUrl}
-    Patch URL: ${patchURL}
-    URL: ${siteURL}
-    `
+Diff URL: ${diffUrl}
+Patch URL: ${patchURL}
+URL: ${siteURL}
+`
   })
 
   res.status(200).send('Okay')
