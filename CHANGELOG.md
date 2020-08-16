@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v2.4.0...v2.5.0) (2020-08-16)
+
+
+### Features
+
+* add generic versioning script ([4de5c28](https://github.com/AndrewUsher/slack-pr-announcer/commit/4de5c28392628e9a49bc182f8c02bc39f0b40637))
+* add yarn offline mirror ([2e31ab2](https://github.com/AndrewUsher/slack-pr-announcer/commit/2e31ab283314ffc712b75986a8e18002dd33007c))
+
 ## [2.4.0](https://github.com/AndrewUsher/slack-pr-announcer/compare/v2.3.0...v2.4.0) (2020-08-11)
 
 
